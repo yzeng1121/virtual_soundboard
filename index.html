@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meme Soundboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            /* ---------- Styling Text ---------- */
+            h1 {
+                text-align: center;
+                font-family: starborn;
+            }
+
+            h3 {
+                text-align: center;
+                padding-bottom: 20x;
+                font-family: alexs_writing;
+            }
+
+            h4 {
+                text-align: left;
+                font-family: alexs_writing;
+
+                padding-left: 25px;
+                margin: 5px 0; /* Adjust the top and bottom margins */
+                line-height: 0.1; /* Adjust line spacing inside the paragraph */
+            }
+
+            /* ---------- Styling Fonts ---------- */
+            @font-face {
+                font-family: starborn;
+                src: url(fonts/Starborn.ttf); 
+            }
+            
+            @font-face {
+                font-family: alexs_writing;
+                src: url(fonts/Alexs_Writing.ttf); 
+            }
+
+            /* ---------- Styling Soundboard ---------- */
+            #soundboard {
+                width: 40%;
+                height: auto;
+                float: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+            }
+            
+            .button {
+                border: none;      /* Remove the border */
+                outline: none;     /* Remove the outline */
+                padding: 0;        /* Remove padding if any */
+            }
+
+            #button1 {
+                top: 631px; /* Center vertically */
+                left: 538px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button1:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            } 
+
+            #button2 {
+                top: 631px; /* Center vertically */
+                left: 633px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button2:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button3 {
+                top: 631px; /* Center vertically */
+                left: 728px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button3:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button4 {
+                top: 631px; /* Center vertically */
+                left: 823px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button4:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button5 {
+                top: 536px; /* Center vertically */
+                left: 538px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button5:active {
+                box-shadow: 0 0 0 5.5px #4f4f4f;
+                transform: scale(90%);
+            } 
+
+            #button6 {
+                top: 536px; /* Center vertically */
+                left: 633px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button6:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button7 {
+                top: 536px; /* Center vertically */
+                left: 728px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button7:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button8 {
+                top: 536px; /* Center vertically */
+                left: 823px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button8:active {
+                box-shadow: 0 0 0 5.4px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button9 {
+                top: 441px; /* Center vertically */
+                left: 537px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button9:active {
+                box-shadow: 0 0 0 5.5px #4f4f4f;
+                transform: scale(90%);
+            } 
+
+            #button10 {
+                top: 441px; /* Center vertically */
+                left: 633px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button10:active {
+                box-shadow: 0 0 0 5.5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button11 {
+                top: 441px; /* Center vertically */
+                left: 728px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button11:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button12 {
+                top: 441px; /* Center vertically */
+                left: 823px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button12:active {
+                box-shadow: 0 0 0 5.4px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button13 {
+                top: 346px; /* Center vertically */
+                left: 537px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1.5px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button13:active {
+                box-shadow: 0 0 0 5.5px #4f4f4f;
+                transform: scale(90%);
+            } 
+
+            #button14 {
+                top: 346px; /* Center vertically */
+                left: 633px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button14:active {
+                box-shadow: 0 0 0 5.5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button15 {
+                top: 346px; /* Center vertically */
+                left: 728px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button15:active {
+                box-shadow: 0 0 0 5px #4f4f4f;
+                transform: scale(90%);
+            }
+
+            #button16 {
+                top: 346px; /* Center vertically */
+                left: 823px; /* Center horizontally */
+                width: 82px;
+                height: auto;
+
+                box-shadow: 0 0 0 1px #120f11;
+                position: absolute;
+                cursor: pointer;
+            }
+
+            #button16:active {
+                box-shadow: 0 0 0 5.4px #4f4f4f;
+                transform: scale(90%);
+            }
+        </style>
+
+    </head>
+    <body>
+        <!---------- Text Elements ------------>
+        <h1 style="font-size: 45px">Virtual Soundboard</h1>
+        <h3 style="font-size: 35px">made by yuxin ⋆</h3>
+
+        <!---------- Soundboard Elements ------------>
+        <div class="container">
+            <img id="soundboard" src="assets/soundboard_img.png">
+
+            <!---------- Button Elements ------------>
+            <button class="button" 
+                onclick="bruh.currentTime = 0; bruh.play();">
+                <img id="button1" src="assets/button1.png">
+            </button>
+
+            <button class="button" 
+                onclick="vine_boom.currentTime = 0; vine_boom.play();">
+                <img id="button2" src="assets/button2.png">
+            </button>
+
+            <button class="button" 
+                onclick="huh.currentTime = 0; huh.play();">
+                <img id="button3" src="assets/button3.png">
+            </button>
+
+            <button class="button" 
+                onclick="rawhr.currentTime = 0; rawhr.play();">
+                <img id="button4" src="assets/button4.png">
+            </button>
+
+            <button class="button" 
+                onclick="dissapointed.currentTime = 0; dissapointed.play();">
+                <img id="button5" src="assets/button5.png">
+            </button>
+
+            <button class="button" 
+                onclick="disgusted.currentTime = 0; disgusted.play();">
+                <img id="button6" src="assets/button6.png">
+            </button>
+
+            <button class="button" 
+                onclick="suspense.currentTime = 0; suspense.play();">
+                <img id="button7" src="assets/button7.png">
+            </button>
+
+            <button class="button" 
+                onclick="alarm.currentTime = 0; alarm.play();">
+                <img id="button8" src="assets/button8.png">
+            </button>
+
+            <button class="button"
+                onclick="boy_what_the_hell.currentTime = 0; boy_what_the_hell.play();">
+                <img id="button9" src="assets/button9.png">
+            </button>
+
+            <button class="button" 
+                onclick="gah_damn.currentTime = 0; gah_damn.play();">
+                <img id="button10" src="assets/button10.png">
+            </button>
+
+            <button class="button" 
+                onclick="yippee.currentTime = 0; yippee.play();">
+                <img id="button11" src="assets/button11.png">
+            </button>
+
+            <button class="button" 
+                onclick="cheering.currentTime = 0; cheering.play();">
+                <img id="button12" src="assets/button12.png">
+            </button>
+
+            <button class="button" 
+                onclick="laughing.currentTime = 0; laughing.play();">
+                <img id="button13" src="assets/button13.png">
+            </button>
+
+            <button class="button" 
+                onclick="alien.currentTime = 0; alien.play();">
+                <img id="button14" src="assets/button14.png">
+            </button>
+
+            <button class="button" 
+                onclick="oh_hell_nah.currentTime = 0; oh_hell_nah.play();">
+                <img id="button15" src="assets/button15.png">
+            </button>
+
+            <button class="button" 
+                onclick="nerd_emoji.currentTime = 0; nerd_emoji.play();">
+                <img id="button16" src="assets/button16.png">
+            </button>
+        </div>
+
+        
+        <!-- <h4 style="font-size: 35px">
+            <p>1. bruh</p>
+            <p>2. vine_boom</p>
+            <p>3. huh</p>
+            <p>4. rawhr</p>
+            <p>5. dissapointed</p>
+            <p>6. disgusted</p>
+            <p>7. suspense</p>
+            <p>8. alarm</p>
+            <p>9. boy what the hell boy</p>
+            <p>10. gah damn</p>
+            <p>11. yippee</p>
+            <p>12. cheering</p>
+            <p>13. laughing</p>
+            <p>14. alien</p>
+            <p>15. oh hell nah</p>
+            <p>16. nerd emoji</p>
+        </h4> -->
+        
+        <!---------- Audio Elements ------------>
+        <script type="text/javascript">
+            const bruh = new Audio();
+            bruh.src = "./sounds/bruh_sfx.mp3"
+
+            const vine_boom = new Audio();
+            vine_boom.src = "./sounds/vine_boom_sfx.mp3"
+
+            const huh = new Audio();
+            huh.src = "./sounds/huh_sfx.mp3"
+
+            const rawhr = new Audio();
+            rawhr.src = "./sounds/rahr_sfx.mp3"
+
+            const dissapointed = new Audio();
+            dissapointed.src = "./sounds/spongebob_dissapointed_sfx.mp3"
+
+            const disgusted = new Audio();
+            disgusted.src = "./sounds/spongebob_disgusted_sfx.mp3"
+
+            const suspense = new Audio();
+            suspense.src = "./sounds/suspense_sfx.mp3"
+
+            const alarm = new Audio();
+            alarm.src = "./sounds/alarm_sfx.mp3"
+
+            const boy_what_the_hell = new Audio();
+            boy_what_the_hell.src = "./sounds/boy_what_the_hell_boy_sfx.mp3"
+
+            const gah_damn = new Audio();
+            gah_damn.src = "./sounds/gah_damn_sfx.mp3"
+
+            const yippee = new Audio();
+            yippee.src = "./sounds/yippee_sfx.mp3"
+
+            const cheering = new Audio();
+            cheering.src = "./sounds/kids_cheering_sfx.mp3"
+
+            const laughing = new Audio();
+            laughing.src = "./sounds/dog_laughing_sfx.mp3"
+
+            const alien = new Audio();
+            alien.src = "./sounds/the_alien_sfx.mp3"
+
+            const oh_hell_nah = new Audio();
+            oh_hell_nah.src = "./sounds/omg_oh_hell_nah_sfx.mp3"
+
+            const nerd_emoji = new Audio();
+            nerd_emoji.src = "./sounds/nerd_emoji_sfx.mp3"
+        </script>
+
+    </body>
+</html>
+
+<!--to open up the soundboard, copy and paste the file path to your browser: -->
+<!--file:///Applications/code%20%F0%9F%A4%93/soundboard/index.html-->

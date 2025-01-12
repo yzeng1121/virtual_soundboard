@@ -13,5 +13,11 @@ VERSION or DATE: January 2025
 
 AUTHOR: Yuxin Zeng
 
+SOURCES: The fonts were downloaded through the website dafont.com, definitely 
+check out for other cool fonts. The sounds were taken through random YouTube
+videos. The specific board I used is the PreSonus ATOM 16-pad 
+Performance Controller, which I just downloaded the image off of the 
+Sweetwater website.
+
 USER INSTRUCTIONS: Manuever your desk top to find the path to this specific 
 index html file then copy and paste the path on any browser. 

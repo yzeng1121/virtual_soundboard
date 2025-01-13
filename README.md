@@ -19,5 +19,5 @@ videos. The specific board I used is the PreSonus ATOM 16-pad
 Performance Controller, which I just downloaded the image off of the 
 Sweetwater website.
 
-USER INSTRUCTIONS: Manuever your desk top to find the path to this specific 
+USER INSTRUCTIONS: Search your computer to find the path to this specific 
 index html file then copy and paste the path on any browser. 

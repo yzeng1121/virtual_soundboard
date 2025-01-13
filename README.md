@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------
 This was a random small project I decided to make because I couldn't 
-find a website with the meme sounds that I wanted, so I created one
+find a website with the sound effects that I wanted, so I created one
 from scratch that's customizeable. 
 ------------------------------------------------------------------------
 

@@ -4,7 +4,7 @@ Virtual Soundboard
 A web application providing users the ability to use audio sound effects in 
 real time for comedic effect.
 
-## About 
+### About 
 This was a random small project I decided to make because I couldn't find a 
 website with the meme sounds that I wanted, so I created one from scratch that's
 easily customizeable.
@@ -16,18 +16,18 @@ file.
 (Created December 2024)
 
 
-## Features
+### Features
 - **User-Friendly Interface**: Intuitive and visually appealing user interface
 to improve user experience.
 
 
-## Languages/Tools
+### Languages/Tools
 - HTML
 - CSS
 - Javascript
 
 
-## How To Run
+### How To Run
 To run this web application locally, follow these steps:
 
 1. Clone this repository to your device.
@@ -36,7 +36,7 @@ To run this web application locally, follow these steps:
     "file:///Applications/code%20%F0%9F%A4%93/soundboard/index.html"
 
 
-## How To Customize
+### How To Customize
 Users can change and swap out different meme sound effects by following the
 steps below for each they wish to change.
 
@@ -50,7 +50,7 @@ well as the audio file path.
 ".currentTime = 0";
 
 
-## Sources
+### Sources
 The fonts were downloaded through the website dafont.com, definitely 
 check out for other cool fonts. The sound effects were taken through random 
 YouTube videos. The specific board I used is an image of the PreSonus ATOM 
@@ -58,5 +58,5 @@ YouTube videos. The specific board I used is an image of the PreSonus ATOM
 Sweetwater website.
 
 
-## Screenshot
+### Screenshot
 ![image alt](https://github.com/yzeng1121/virtual_soundboard/blob/98c043cdfb9a648bfa97f29db5b1fbfb4608fd69/screenshots/web_app.png)

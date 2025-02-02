@@ -13,7 +13,6 @@ Users can customize their own sounds by manually importing their own audio
 files onto the sounds folder and replacing the file paths in the index.html
 file. 
 
-![image alt](https://github.com/yzeng1121/virtual_soundboard/blob/98c043cdfb9a648bfa97f29db5b1fbfb4608fd69/screenshots/web_app.png)
 (Created December 2024)
 
 
@@ -58,3 +57,6 @@ YouTube videos. The specific board I used is an image of the PreSonus ATOM
 16-pad Performance Controller, which I just downloaded the image off of the 
 Sweetwater website.
 
+
+## Screenshot
+![image alt](https://github.com/yzeng1121/virtual_soundboard/blob/98c043cdfb9a648bfa97f29db5b1fbfb4608fd69/screenshots/web_app.png)

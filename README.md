@@ -24,7 +24,7 @@ to improve user experience.
 ### Languages/Tools
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
 
 ### How To Run

@@ -32,6 +32,8 @@ To run this web application locally, follow these steps:
 
 1. Clone this repository to your device.
 2. Copy and paste the file path to the index.html file onto your browser.
+    a. If you're on Mac, the file path should look like so, 
+    "file:///Applications/code%20%F0%9F%A4%93/soundboard/index.html"
 
 
 ## How To Customize

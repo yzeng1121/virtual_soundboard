@@ -1,0 +1,295 @@
+/* ---------- Styling Text ---------- */
+h1 {
+    text-align: center;
+    font-family: starborn;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20x;
+    font-family: alexs_writing;
+}
+
+/* ---------- Styling Fonts ---------- */
+@font-face {
+    font-family: starborn;
+    src: url(fonts/Starborn.ttf); 
+}
+
+@font-face {
+    font-family: alexs_writing;
+    src: url(fonts/Alexs_Writing.ttf); 
+}
+
+/* ---------- Styling Soundboard ---------- */
+#soundboard {
+    width: 40%;
+    height: auto;
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.button {
+    border: none;      /* Remove the border */
+    outline: none;     /* Remove the outline */
+    padding: 0;        /* Remove padding if any */
+}
+
+#button1 {
+    top: 631px; /* Center vertically */
+    left: 538px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button1:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+} 
+
+#button2 {
+    top: 631px; /* Center vertically */
+    left: 633px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button2:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button3 {
+    top: 631px; /* Center vertically */
+    left: 728px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button3:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button4 {
+    top: 631px; /* Center vertically */
+    left: 823px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button4:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button5 {
+    top: 536px; /* Center vertically */
+    left: 538px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button5:active {
+    box-shadow: 0 0 0 5.5px #4f4f4f;
+    transform: scale(90%);
+} 
+
+#button6 {
+    top: 536px; /* Center vertically */
+    left: 633px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button6:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button7 {
+    top: 536px; /* Center vertically */
+    left: 728px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button7:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button8 {
+    top: 536px; /* Center vertically */
+    left: 823px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button8:active {
+    box-shadow: 0 0 0 5.4px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button9 {
+    top: 441px; /* Center vertically */
+    left: 537px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button9:active {
+    box-shadow: 0 0 0 5.5px #4f4f4f;
+    transform: scale(90%);
+} 
+
+#button10 {
+    top: 441px; /* Center vertically */
+    left: 633px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button10:active {
+    box-shadow: 0 0 0 5.5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button11 {
+    top: 441px; /* Center vertically */
+    left: 728px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button11:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button12 {
+    top: 441px; /* Center vertically */
+    left: 823px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button12:active {
+    box-shadow: 0 0 0 5.4px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button13 {
+    top: 346px; /* Center vertically */
+    left: 537px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1.5px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button13:active {
+    box-shadow: 0 0 0 5.5px #4f4f4f;
+    transform: scale(90%);
+} 
+
+#button14 {
+    top: 346px; /* Center vertically */
+    left: 633px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button14:active {
+    box-shadow: 0 0 0 5.5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button15 {
+    top: 346px; /* Center vertically */
+    left: 728px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button15:active {
+    box-shadow: 0 0 0 5px #4f4f4f;
+    transform: scale(90%);
+}
+
+#button16 {
+    top: 346px; /* Center vertically */
+    left: 823px; /* Center horizontally */
+    width: 82px;
+    height: auto;
+
+    box-shadow: 0 0 0 1px #120f11;
+    position: absolute;
+    cursor: pointer;
+}
+
+#button16:active {
+    box-shadow: 0 0 0 5.4px #4f4f4f;
+    transform: scale(90%);
+}
